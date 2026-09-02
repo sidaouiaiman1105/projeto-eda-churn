@@ -24,6 +24,20 @@ A partir de um dataset público de clientes de telecom, o projeto busca responde
 - Matplotlib e Seaborn — visualização de dados
 - Jupyter Notebook / Google Colab
 
+## 📊 Visualizações
+
+**Taxa geral de churn**
+
+![Distribuição da Taxa de Churn](img/taxa_churn.png)
+
+**Churn por tipo de contrato**
+
+![Cancelamento por Tipo de Contrato](img/churn_por_contrato.png)
+
+**Fatura mensal vs. churn**
+
+![Distribuição de Valor Mensal x Churn](img/fatura_mensal_x_churn.png)
+
 ## 📈 Principais Insights
 
 - Clientes com **contrato mensal (Month-to-month)** apresentam uma quantidade de cancelamentos muito maior do que clientes com contrato de 1 ou 2 anos.
@@ -51,10 +65,13 @@ Esta é uma análise exploratória inicial, baseada em observação visual dos g
 eda-churn-clientes/
 ├── README.md                     # Este arquivo
 ├── EDA_Churn_Clientes.ipynb      # Notebook com todo o código, gráficos e conclusões
-└── images/                       # (opcional) prints dos gráficos para exibir no README
+└── img/                          # Prints dos gráficos exibidos no README
+    ├── taxa_churn.png
+    ├── churn_por_contrato.png
+    └── fatura_mensal_x_churn.png
 ```
 
-> Repositório enxuto e direto: como o dataset é lido via URL dentro do próprio notebook, não é necessário incluir o arquivo `.csv` no projeto.
+> Repositório enxuto e direto: como o dataset é lido via URL dentro do próprio notebook, não é necessário incluir o arquivo `.csv` no projeto. Basta exportar os 3 gráficos gerados no notebook (clique com o botão direito na imagem de saída da célula → salvar, ou use `plt.savefig()` antes do `plt.show()`) e colocá-los na pasta `img/` com esses nomes — ou renomeie os arquivos no README para bater com os nomes que você usar.
 
 ## ▶️ Como Executar
 
