@@ -44,8 +44,6 @@ A partir de um dataset público de clientes de telecom, o projeto busca responde
 - Clientes que cancelam tendem a pagar uma **fatura mensal mais alta**, indicado pela mediana mais elevada no boxplot de `MonthlyCharges`.
 - A oferta de **serviços adicionais** (como suporte técnico) está associada a uma menor taxa de evasão.
 
-> 💡 Complete aqui a taxa geral de churn observada na sua execução (ex: *"A taxa geral de churn da base foi de 26,5%"*), substituindo o placeholder que está na célula de conclusão do notebook.
-
 ## 💼 Recomendações de Negócio
 
 1. **Incentivar migração de contrato** — oferecer descontos para clientes de contrato mensal migrarem para planos anuais, que têm churn muito menor.
@@ -70,9 +68,6 @@ eda-churn-clientes/
     ├── churn_por_contrato.png
     └── fatura_mensal_x_churn.png
 ```
-
-> Repositório enxuto e direto: como o dataset é lido via URL dentro do próprio notebook, não é necessário incluir o arquivo `.csv` no projeto. Basta exportar os 3 gráficos gerados no notebook (clique com o botão direito na imagem de saída da célula → salvar, ou use `plt.savefig()` antes do `plt.show()`) e colocá-los na pasta `img/` com esses nomes — ou renomeie os arquivos no README para bater com os nomes que você usar.
-
 ## ▶️ Como Executar
 
 1. Clone este repositório:
