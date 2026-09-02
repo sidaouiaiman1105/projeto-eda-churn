@@ -84,6 +84,6 @@ eda-churn-clientes/
 
 ## 📫 Contato
 
-Feito por **[seu nome]** — [LinkedIn](https://linkedin.com/in/seu-usuario) | [GitHub](https://github.com/seu-usuario)
+Feito por **[Aiman Sidaoui]**
 
 `#Python` `#DataScience` `#Pandas` `#EDA` `#DataAnalytics` `#Portfolio`
